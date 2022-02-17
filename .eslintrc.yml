@@ -1,0 +1,10 @@
+root: true
+env:
+  es6: true
+rules:
+  no-restricted-exports:
+    - error
+    - restrictedNamedExports:
+      - default
+parserOptions:
+  sourceType: module
